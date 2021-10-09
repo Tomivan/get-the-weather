@@ -1,0 +1,185 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "https://fonts.googleapis.com/css?family=Raleway";
+.App{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    font-family: Raleway;
+}
+.aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1E213A;
+    position: relative;
+    padding: 1em;
+    color: #fff;
+    width: 25vw;
+  }
+  
+  .aside-overlay {
+    position: absolute;
+    left: -500px;
+    right: 500px;
+    bottom: 0;
+    top: 0;
+    background-color: #1E213A;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .aside-overlay.active {
+    right: 0;
+    left: 0;
+  }
+  
+  .content-overlay {
+    padding: 10px 45px;
+    margin: 0 auto;
+  }
+  
+  .button-close {
+    display: flex;
+    justify-content: flex-end;
+    color: #E7E7EB;
+    padding-bottom: 9%;
+  }
+  
+  .button-close svg {
+    cursor: pointer;
+  }
+  
+  .content-search {
+    display: flex;
+  }
+  
+  .input-search {
+    width: 90%;
+    padding: 1em;
+    margin-right: 5%;
+    border: 1px solid #E7E7EB;
+    background-color: #1E213A;
+    color: #E7E7EB;
+  }
+  
+  .button-search {
+    padding: 1em;
+    background-color: #3C47E9;
+    color: #E7E7EB;
+    border: none;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .button-search:hover {
+    background-color:#c7c7fb;;
+    color:#3C47E9;
+  }
+svg {
+    width: 18px;
+  }
+.aside-top{
+    display: flex;
+    justify-content: space-between;
+}
+.search-button{
+    background: #6e707a;
+    color: #fff;
+    border: none;
+    height: 4vh;
+}
+.gps{
+    background: #6e707a;
+    border-radius: 50%;
+    padding: 0.2em;
+}
+.search-field{
+    width: 18vw;
+}
+.today-image{
+    margin: 15% 0 0 20%;
+}
+.temperature{
+    font-size: 5em;
+    text-align: center;
+    color: #fff;
+}
+.aside-body{
+    color: #a09fb1;
+    text-align: center;
+}
+.date {
+    display: flex;
+    justify-content: center;
+}
+.location {
+    display: flex;
+    justify-content: center;
+}
+.place{
+    margin: 4% 2% 0 0;
+}
+.main{
+    background: #100e1d;
+    color: #e7ebeb;
+    width: 75vw;
+    height: 95vh;
+}
+.degree{
+    display: flex;
+    margin-left: 79%;
+    padding: 1em;
+}
+.celsius{
+    background: #fff;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin-right: 3%;
+    color: #000;
+}
+.farenheit{
+    border-radius: 50%;
+    padding: 0.5em;
+    background: #595676;
+}
+.main-top{
+    display: flex;
+    justify-content: center;
+}
+.top-cards{
+    width: 10%;
+    background: #1e213a;
+    margin-right: 3%;
+    padding: 1em;
+    text-align: center;
+}
+.weather-icon{
+    height: 8vh;
+}
+.top-cards-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.main-bottom{
+    margin-left: 10%;
+}
+.bottom-cards {
+    display: flex; 
+    margin-top: 3%;  
+}
+.bottom-card{
+    width: 40%;
+    background: #1e213a;
+    margin-right: 5%;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+}
+.dot{
+    margin-top: 5%;
+}
